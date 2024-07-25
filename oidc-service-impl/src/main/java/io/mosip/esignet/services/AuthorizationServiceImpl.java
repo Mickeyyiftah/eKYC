@@ -88,9 +88,8 @@ public class AuthorizationServiceImpl implements AuthorizationService {
     @Value("${mosip.esignet.credential.mandate-pkce:true}")
     private boolean mandatePKCEForVC;
 
-    @Value("#{${mosip.esignet.captcha.required.auth-factors}}")
+    @Value("#{'${mosip.esignet.captcha.required}'.split(',')}")
     private List<String> captchaRequired;
-
 
     @Override
     public OAuthDetailResponseV1 getOauthDetails(OAuthDetailRequest oauthDetailReqDto) throws EsignetException {

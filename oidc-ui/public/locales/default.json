@@ -1,5 +1,6 @@
 {
   "languages_2Letters": {
+    "am": "አማርኛ",
     "en": "English",
     "hi": "हिंदी",
     "ar": "عربى",
@@ -9,6 +10,7 @@
   },
   "rtlLanguages": ["ar"],
   "langCodeMapping": {
+    "amh": "am",
     "eng": "en",
     "hin": "hi",
     "ara": "ar",

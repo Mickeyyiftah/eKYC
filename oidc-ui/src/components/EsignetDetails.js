@@ -23,14 +23,14 @@ export default function EsignetDetails({ i18nKeyPrefix = "esignetDetails" }) {
     setStatus({ state: states.LOADED, msg: "" });
   }, []);
 
-  // to open a well known endpoint in a separate blank tab
-  const openWellKnownEndpoint = (endpoint) => {
-    window.open(
-      process.env.PUBLIC_URL + endpoint,
-      "_blank",
-      "noopener,noreferrer"
-    );
-  };
+    // to open a well known endpoint in a separate blank tab
+    const openWellKnownEndpoint = (endpoint) => {
+        window.open(
+            process.env.REACT_APP_ESIGNET_API_URL + endpoint,
+            "_blank",
+            "noopener,noreferrer"
+        );
+    };
 
   return (
     <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start text-left items-center">

@@ -28,6 +28,8 @@
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>esignet-core</artifactId>
 			<version>${esignet.core.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>

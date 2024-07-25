@@ -13,6 +13,7 @@ import io.mosip.esignet.core.validator.RedirectURL;
 
 import javax.validation.constraints.NotBlank;
 
+
 @Data
 public class TokenRequest {
 

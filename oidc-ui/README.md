@@ -36,7 +36,7 @@ Esignet UI contains the following pages:
 
   The password-based authentication system incorporates a functionality allowing users to initiate a password recovery process through a designated `Forgot Password` hyperlink.
 
-  For knowledge based authentication, the form schema is defined in the property : `auth.factor.kba.field-details`. And the field Id to be used as the unique username among them should be set in `auth.factor.kba.individual-id-field`
+  For knowledge based authentication, the form schema is defined in the property : `auth.factor.kba.afield-details`. And the field Id to be used as the unique username among them should be set in `auth.factor.kba.individual-id-field`
 
   Example: If its a policy Id based form, then 
     - auth.factor.kba.field-details={{"id":"policyNumber", "type":"text", "format":""},{"id":"fullName", "type":"text", "format":""},{"id":"dob", "type":"date", "format":"dd/mm/yyyy"}}
@@ -134,4 +134,4 @@ JSON configuration variables (`theme/config.json`)
     ```
     chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
     ```
-  - Open URL http://localhost:3000
+    - Open URL http://localhost:3000

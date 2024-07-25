@@ -49,44 +49,57 @@
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>esignet-integration-api</artifactId>
 			<version>1.4.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>esignet-core</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>oidc-service-impl</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>binding-service-impl</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>consent-service-impl</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>vci-service-impl</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.mosip.esignet.mock</groupId>
 			<artifactId>mock-esignet-integration-impl</artifactId>
 			<version>0.9.3</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>io.mosip.esignet</groupId>
 			<artifactId>client-management-service-impl</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
