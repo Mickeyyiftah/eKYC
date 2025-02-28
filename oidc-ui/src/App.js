@@ -11,6 +11,8 @@ import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {HttpError} from "./services/api.service";
 import {AppRouter} from "./app/AppRouter";
 
+
+
 function App() {
   const { i18n } = useTranslation();
   const [langOptions, setLangOptions] = useState([]);

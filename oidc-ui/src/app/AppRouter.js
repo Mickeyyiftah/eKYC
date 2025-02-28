@@ -12,8 +12,10 @@ import {setupResponseInterceptor} from "../services/api.service";
 import {useTranslation} from "react-i18next";
 import {AUTHORIZE, CONSENT, ESIGNET_DETAIL, LOGIN, PAGE_NOT_FOUND, SOMETHING_WENT_WRONG,} from "../constants/routes";
 import configService from "../services/configService";
+import app from "../App";
 
 const config = await configService();
+
 
 const WithSuspense = ({ children }) => (
   <Suspense fallback={<div className="h-screen w-screen bg-neutral-100"></div>}>
